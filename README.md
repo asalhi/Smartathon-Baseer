@@ -1,11 +1,26 @@
-# نظام بصير
+# BASEER
 
-هو نظام آلي متكامل يعمل بأحدث تقنيات الذكاء الصناعي والواقع الافتراضي ، في تحليل مظاهر التشوه البصري المنتشرة وذلك من خلال تطبيق أيباد وموقع إلكتروني ، حيث تم الربط بينهما لإعطاء نتائج متكاملة دقيقة ، حيث يعتمد نظام بصير على تحويل البيانات المسجلة إلى إحصاء وأرقام يمكن من خلالها إتخاذ القرارت بناء عليها ، وبرسومات بيانية دقيقة.
+Baseer is a developed automated system that locates visual pollution by relying on artificial intelligence techniques to analyze graphics and extract data.
 
 
-هنا ستجدون جميع الموديلات التي تم تدريبها لبناء وتطوير النواة الاساسيه للمشروع 
+**This is the repository that will contain all training and inference codes related to theme 1 in Smarathon Challange, this includes diffrent phases.**
 
-This is the repository that will contain all training and inference codes related to theme 1 in Smarathon Challange, this includes diffrent phases as follow: 
+## Web App
+Here you can find the web app developed on top of the models: [https://github.com/haya-alwarthan/visuallpoll-backend/](https://github.com/haya-alwarthan/visuallpoll-backend/)
+
+## Mobile App
+Here you can find the mobile app developed on the top of the models :
+[https://drive.google.com/file/d/1wGX3LYnrW2LbjuTj4_vh6LDI975ccGHl/view
+](https://drive.google.com/file/d/1wGX3LYnrW2LbjuTj4_vh6LDI975ccGHl/view
+)
+
+## Models Weights:
+For Models weights you can access them from here : 
+
+https://drive.google.com/drive/folders/1BM6LsH-6JWxn51UYXG1PKgZW7lxKvFQw?usp=sharing
+
+
+## Training Phases: 
 
 **Training Phase 1: (Training a Detectron2 Model) :**
 1. The train data were preprocessed  as follows:
