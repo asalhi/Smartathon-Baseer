@@ -77,7 +77,12 @@ X101-FPN was the best.
 
 <img src="https://github.com/asalhi/Smartathon-Baseer/raw/main/images/phase5.png" height="800">
 
+**Something we tried and didn't help:**
+We tried to teach a kNeighbirsRegressor the relationship between images latitude and longitude and thier class (since images have latitude and longitude information ), we thought that this will help give a predicted class to the non-labeled images.
+The approach didn't help in improving the results.
 
+**A nice booster:**
+For any image that has no labels in prediction, we add a box in the image with "Garbage" as a class, this helped improve the score(we selected "Garbage" becuase its the most frequent class)
 
 
 
