@@ -86,7 +86,7 @@ X101-FPN was the best.
 2. We will be using [Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion), it's a library that ensemble different object detection models and find the best boxes for each detected object.
 3. Each model's result is unified to fit the needs of Weighted boxes fusion.
 4. Different thresholds are tested.
-5. The inference results(over the test data) based on weighted boxes fusion ensembling are increased to reach mAP 65.12% (using yolov5 with detecron).
+5. The inference results(over the test data) based on weighted boxes fusion ensembling are increased to reach mAP 65.12% (using detectronV2 with Yolov5).
 
 **WBF (Detectron2 with Yolov5**
 
